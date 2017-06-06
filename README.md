@@ -83,7 +83,7 @@
 
       **IMPORTANT:** The Postman tests manipulate some of the user data. Before you run the Postman tests, you should restart nodemon. You can do this in the terminal while nodemon is running by typing ```rs``` and then pressing `enter`.  
 
-## Enpoints & Queries
+## Endpoints & Queries
 
 GOTCHA: It's important to know that express converts values passed into and accessed off of 'params' into strings. This might not match the data types you set in your schema and will result in errors if they don't.
 
@@ -96,7 +96,7 @@ RETURNING *;
 ```
 
 <br>
-1. Create an endpoint at `GET /api/users` that will query the database and get all users.
+1. Create an endpoint at ``GET /api/users`` that will query the database and get all users.
 
 2. Create an endpoint at `GET '/api/vehicles'` that will query the database and get all vehicles.
 
